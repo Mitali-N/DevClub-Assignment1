@@ -1,0 +1,354 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar table{
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    left: 85px;
+    top: 68px;  
+    
+    background-color: #4C0027;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.navbar td{
+    padding: 15px;
+}
+
+a{
+    color: #FFFFFF ;
+}
+
+.homepage{
+    clear: both;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background-color: #4C0027;
+}
+
+.homepage h4{
+    position: absolute;
+    width: 1195px;
+    height: 118px;
+    left: 85px;
+    top: 248px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #E8AFCE;
+}
+
+.homepage h2{
+    position: absolute;
+    width: 943px;
+    height: 234px;
+    left: 85px;
+    top: 395px;
+    clear:both;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 117px;
+
+    color: #FFFFFF;
+}
+
+.homepage img {
+    float: right;
+    clear: both;
+    background-color: #4C0027;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 927px;
+    top: 512px;
+}
+
+.tips{
+    clear:both;
+    left: 664px;
+    top: 1053px;
+    height: 1024px;
+    text-align: center;
+
+    background-color: #FFFFFF;
+    clear: both;
+    font-size: 300%;
+}
+
+.tips h3{
+    position: absolute;
+    width: 113px;
+    height: 66px;
+    left: 664px;
+    top: 1053px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #4C0027;
+}
+
+.tip1{
+    position: absolute;
+    width: 1293px;
+    height: 369px;
+    left: 74px;
+    top: 1192px;
+
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: #000000;
+}
+
+.tip1 img{
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.tip1 p{
+    position: absolute;
+    left: 799px;
+    line-height: 210px;
+}
+
+
+.tip2{
+    position: absolute;
+    width: 1293px;
+    height: 369px;
+    left: 74px;
+    top: 1638px;
+
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: #000000;
+}
+
+.tip2 p{
+    position: absolute;
+    left: 160px;
+    line-height: 210px;
+}
+
+
+.tip2 img{
+    float: right;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.symptoms{
+    clear: both;
+    position: absolute;
+    width: 1440px;
+    height: 721px;
+    left: 0px;
+    top: 2121px;
+    
+    background: #E8AFCE;
+}   
+
+.symptoms h3{
+    position: absolute;
+    width: 300px;
+    height: 66px;
+    left: 570px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    /* identical to box height */
+    color: #4C0027;
+}
+
+.symptoms table{
+    background-color:#eee;
+    border: 8px solid;
+    border-collapse: collapse;
+    text-align: center;
+    border-color: #4C0027 ;
+    
+    position: absolute;
+    width: 951px;
+    height: 454px;
+    left: 244px;
+    top: 161px;
+    box-sizing: border-box;
+}
+
+.symptoms td{
+    border: 8px solid;
+    border-color: #4C0027;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-style: normal;
+}
+
+.faqspage{
+    position: absolute;
+    width: 1293px;
+    height: 754px;
+
+    top: 2956px;
+    clear: both;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.faqspage h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    color: #4C0027;
+    clear: both;
+}
+
+.faqs{
+    position: absolute;
+    width: 1293px;
+    height:754px;
+    left: 74px;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    clear: both;
+}
+
+.faq1{
+    margin: auto;
+    height: 198px;
+    width: 1161px;
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    clear: both;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.faq2{
+    margin: auto;
+    width: 1161px;
+    height: 198px;
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    clear: both;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.faq3{
+    margin: auto;
+    width: 1161px;
+    height: 198px;
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    clear: both;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.faq1 h4, .faq2 h4, .faq3 h4{
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.yt{
+    position: absolute;
+    width: 1440px;
+    height: 792px;
+    top: 3894px;
+
+    text-align: center;
+}
+
+.yt h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    color: #4C0027;
+}
+
+.yt a img{
+    width: 759px;
+    height: 444.93px;
+    left: 341px;
+}
+
+.credits{
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 4641px;
+    text-align: center;
+    background: #4C0027;
+}
+
+.credits h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
