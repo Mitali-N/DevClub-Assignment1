@@ -7,6 +7,7 @@ h2,h3,h4{
 }
 
 body{
+    margin:0%;
     position: absolute;
     width: 1440px;
     left: 0px;
@@ -207,7 +208,7 @@ a{
 }
 
 .symptoms table{
-    background-color:#eee;
+    background-color:#FFFFFF;
     border: 8px solid;
     border-collapse: collapse;
     text-align: center;
