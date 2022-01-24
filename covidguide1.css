@@ -331,9 +331,7 @@ a{
     color: #4C0027;
 }
 
-.yt a img{
-    width: 759px;
-    height: 444.93px;
+.yt iframe{
     left: 341px;
 }
 
